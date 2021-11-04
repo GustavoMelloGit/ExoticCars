@@ -54,7 +54,23 @@
             "model": "WRAITH",
             "price": 725,
             "image": "https://i.imgur.com/lrmxgyX.png",
-            "colors":[]
+            "colors":[
+                {
+                    "id": 1,
+                    "color": "white",
+                    "image": "https://i.imgur.com/N5X0lL4.png"
+                },
+                {
+                    "id": 2,
+                    "color": "gray",
+                    "image": "https://i.imgur.com/De3YrLO.png"
+                },
+                {
+                    "id": 3,
+                    "color": "orange",
+                    "image": "https://i.imgur.com/hT7p9t9.png"
+                }
+            ]
         },
         {
             "id": 4,
@@ -62,7 +78,23 @@
             "model": "911 Turbo S",
             "price": 725,
             "image": "https://i.imgur.com/N5X0lL4.png",
-            "colors":[]
+            "colors":[
+                {
+                    "id": 1,
+                    "color": "white",
+                    "image": "https://i.imgur.com/N5X0lL4.png"
+                },
+                {
+                    "id": 2,
+                    "color": "gray",
+                    "image": "https://i.imgur.com/De3YrLO.png"
+                },
+                {
+                    "id": 3,
+                    "color": "orange",
+                    "image": "https://i.imgur.com/hT7p9t9.png"
+                }
+            ]
         },
         {
             "id": 5,
@@ -70,7 +102,23 @@
             "model": "AVENTADOR",
             "price": 925,
             "image": "https://i.imgur.com/7ll3Jhj.png",
-            "colors":[]
+            "colors":[
+                {
+                    "id": 1,
+                    "color": "white",
+                    "image": "https://i.imgur.com/N5X0lL4.png"
+                },
+                {
+                    "id": 2,
+                    "color": "gray",
+                    "image": "https://i.imgur.com/De3YrLO.png"
+                },
+                {
+                    "id": 3,
+                    "color": "orange",
+                    "image": "https://i.imgur.com/hT7p9t9.png"
+                }
+            ]
         },
         {
             "id": 6,
@@ -78,7 +126,23 @@
             "model": "911 Turbo S",
             "price": 725,
             "image": "https://i.imgur.com/De3YrLO.png",
-            "colors":[]
+            "colors":[
+                {
+                    "id": 1,
+                    "color": "white",
+                    "image": "https://i.imgur.com/N5X0lL4.png"
+                },
+                {
+                    "id": 2,
+                    "color": "gray",
+                    "image": "https://i.imgur.com/De3YrLO.png"
+                },
+                {
+                    "id": 3,
+                    "color": "orange",
+                    "image": "https://i.imgur.com/hT7p9t9.png"
+                }
+            ]
         },
         {
             "id": 7,
@@ -86,7 +150,23 @@
             "model": "P1 GTR",
             "price": 925,
             "image": "https://i.imgur.com/zi1ZJbP.png",
-            "colors":[]
+            "colors":[
+                {
+                    "id": 1,
+                    "color": "white",
+                    "image": "https://i.imgur.com/N5X0lL4.png"
+                },
+                {
+                    "id": 2,
+                    "color": "gray",
+                    "image": "https://i.imgur.com/De3YrLO.png"
+                },
+                {
+                    "id": 3,
+                    "color": "orange",
+                    "image": "https://i.imgur.com/hT7p9t9.png"
+                }
+            ]
         }
     ]
 }

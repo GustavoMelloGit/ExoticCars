@@ -23,9 +23,11 @@ type ICarProps = {
   model: string;
   price: number;
   image: string;
+  setModalState: () => void;
 };
 export default function Car(props: ICarProps) {
-  const { brand, model, price, image } = props;
+  const { brand, model, price, image, setModalState } = props;
+
   return (
     <CarContainer>
       <Card>
@@ -41,7 +43,7 @@ export default function Car(props: ICarProps) {
             </TouchableOpacity>
           </Header>
           <Model>{model}</Model>
-          <TouchableImage>
+          <TouchableImage onPress={setModalState}>
             <CarImage
               source={{
                 uri: image,
