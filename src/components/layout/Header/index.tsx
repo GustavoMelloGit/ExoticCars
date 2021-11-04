@@ -12,7 +12,7 @@ export default function Header({ navigation }: IRouteProps) {
   return (
     <Container>
       <Logo>
-        Exotic<Span>cars</Span>
+        Exotic <Span>cars</Span>
       </Logo>
       <TouchableOpacity onPress={handleOpenDrawer}>
         <Ionicons name="menu" size={24} color={theme.colors.actions} />

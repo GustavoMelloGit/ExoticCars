@@ -1,23 +1,60 @@
 import React from "react";
 import { Image, Text, View } from "react-native";
 import Card from "@components/ui/Card";
-import { CarContainer, CarImage, DolarSign } from "./styles";
+import {
+  Brand,
+  CarContainer,
+  CarImage,
+  ContentWrapper,
+  DolarSign,
+  Header,
+  Model,
+  PriceText,
+  PriceWrapper,
+  SubText,
+  TouchableImage,
+} from "./styles";
+import { Entypo } from "@expo/vector-icons";
+import { TouchableOpacity } from "react-native-gesture-handler";
+import theme from "@utils/theme";
 
 type ICarProps = {
   brand: string;
   model: string;
   price: number;
+  image: string;
 };
 export default function Car(props: ICarProps) {
-  const { brand, model, price } = props;
+  const { brand, model, price, image } = props;
   return (
-    <Card>
-      <CarContainer>
-        <CarImage source={require("@assets/ferrari_california.png")} />
-        <Text>
-          <DolarSign>$</DolarSign> {price}
-        </Text>
-      </CarContainer>
-    </Card>
+    <CarContainer>
+      <Card>
+        <ContentWrapper>
+          <Header>
+            <Brand>{brand}</Brand>
+            <TouchableOpacity>
+              <Entypo
+                name="dots-three-horizontal"
+                size={20}
+                color={theme.colors.options}
+              />
+            </TouchableOpacity>
+          </Header>
+          <Model>{model}</Model>
+          <TouchableImage>
+            <CarImage
+              source={{
+                uri: image,
+              }}
+            />
+          </TouchableImage>
+          <PriceWrapper>
+            <DolarSign>$</DolarSign>
+            <PriceText>{price}</PriceText>
+            <SubText>/day</SubText>
+          </PriceWrapper>
+        </ContentWrapper>
+      </Card>
+    </CarContainer>
   );
 }

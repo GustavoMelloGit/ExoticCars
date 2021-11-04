@@ -5,5 +5,5 @@ export const Container = styled.View`
   background-color: ${theme.colors.card_background};
   height: 180px;
   width: 90%;
-  border-radius: 8px;
+  border-radius: 10px;
 `;

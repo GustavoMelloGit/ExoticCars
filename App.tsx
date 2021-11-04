@@ -6,6 +6,7 @@ import {
   Heebo_600SemiBold,
   Heebo_400Regular,
   Heebo_700Bold,
+  Heebo_300Light,
 } from "@expo-google-fonts/heebo";
 import Routes from "./src/routes";
 
@@ -14,6 +15,7 @@ export default function App() {
     Heebo_600SemiBold,
     Heebo_400Regular,
     Heebo_700Bold,
+    Heebo_300Light,
   });
 
   if (!fontsLoaded) {
