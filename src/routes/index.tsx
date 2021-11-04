@@ -3,7 +3,7 @@ import { createDrawerNavigator } from "@react-navigation/drawer";
 import { NavigationContainer } from "@react-navigation/native";
 import Home from "../screens/Home";
 import SignIn from "../screens/SignIn";
-import LogIn from "../screens/Home/LogIn";
+import LogIn from "../screens/LogIn";
 
 const Drawer = createDrawerNavigator();
 
