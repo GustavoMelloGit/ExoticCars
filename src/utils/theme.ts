@@ -10,6 +10,7 @@ const theme = {
     semi_bold: "Heebo_600SemiBold",
     bold: "Heebo_700Bold",
     light: "Heebo_300Light",
+    thin: "Heebo_100Thin",
   },
 };
 

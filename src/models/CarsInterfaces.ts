@@ -4,13 +4,12 @@ export interface ICarProps {
   model: string;
   price: number;
   image: string;
-  colors: [
-    {
-      id: number;
-      color: string;
-      image: string;
-    }
-  ];
+  logo: string;
+  colors: {
+    id: number;
+    color: string;
+    image: string;
+  }[];
 }
 
 export interface ICarsProps {

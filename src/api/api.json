@@ -6,6 +6,7 @@
             "model": "CALIFORNIA",
             "price": 725,
             "image": "https://i.imgur.com/el2OBWf.png",
+            "logo": "https://i.imgur.com/TQSC2tJ.png",
             "colors":[
                 {
                     "id": 1,
@@ -30,6 +31,7 @@
             "model": "911 Turbo S",
             "price": 725,
             "image": "https://i.imgur.com/hT7p9t9.png",
+            "logo": "",
             "colors":[
                 {
                     "id": 1,
@@ -54,6 +56,7 @@
             "model": "WRAITH",
             "price": 725,
             "image": "https://i.imgur.com/lrmxgyX.png",
+            "logo": "",
             "colors":[
                 {
                     "id": 1,
@@ -78,6 +81,7 @@
             "model": "911 Turbo S",
             "price": 725,
             "image": "https://i.imgur.com/N5X0lL4.png",
+            "logo": "",
             "colors":[
                 {
                     "id": 1,
@@ -102,6 +106,7 @@
             "model": "AVENTADOR",
             "price": 925,
             "image": "https://i.imgur.com/7ll3Jhj.png",
+            "logo": "",
             "colors":[
                 {
                     "id": 1,
@@ -126,6 +131,7 @@
             "model": "911 Turbo S",
             "price": 725,
             "image": "https://i.imgur.com/De3YrLO.png",
+            "logo": "",
             "colors":[
                 {
                     "id": 1,
@@ -150,6 +156,7 @@
             "model": "P1 GTR",
             "price": 925,
             "image": "https://i.imgur.com/zi1ZJbP.png",
+            "logo": "",
             "colors":[
                 {
                     "id": 1,

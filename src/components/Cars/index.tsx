@@ -7,10 +7,11 @@ import { ICarsProps, ICarProps } from "@models/CarsInterfaces";
 
 export default function Cars() {
   const [modal, setModal] = useState(false);
-  const [cars, setCars] = useState<ICarsProps>();
+  const [car, setCar] = useState<ICarProps>({} as ICarProps);
 
   function handleOpenModal(item: ICarProps) {
     setModal((prev) => !prev);
+    setCar(item);
   }
 
   return (
@@ -28,7 +29,7 @@ export default function Cars() {
           />
         )}
       />
-      <CarDetails visible={modal} />
+      <CarDetails visible={modal} car={car} setModalState={setModal} />
     </>
   );
 }
