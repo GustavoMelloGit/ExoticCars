@@ -29,7 +29,9 @@ export default function Cars() {
           />
         )}
       />
-      <CarDetails visible={modal} car={car} setModalState={setModal} />
+      {modal && (
+        <CarDetails visible={modal} car={car} setModalState={setModal} />
+      )}
     </>
   );
 }

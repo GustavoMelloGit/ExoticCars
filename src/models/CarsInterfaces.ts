@@ -1,3 +1,8 @@
+export interface ICarColorsProps {
+  id: number;
+  color: string;
+  image: string;
+}
 export interface ICarProps {
   id: number;
   brand: string;
@@ -5,11 +10,7 @@ export interface ICarProps {
   price: number;
   image: string;
   logo: string;
-  colors: {
-    id: number;
-    color: string;
-    image: string;
-  }[];
+  colors: ICarColorsProps[];
 }
 
 export interface ICarsProps {
